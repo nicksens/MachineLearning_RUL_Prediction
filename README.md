@@ -30,7 +30,7 @@ Pengguna diminta memasukkan tiga fitur utama baterai:
   - F5: Time at 4.15V (s)
 - **Target**: Remaining Useful Life (RUL) dalam satuan siklus
 
-## Cara Menjalankan
+## Cara Menjalankan di VS Code
 
 1. Pastikan dependensi sudah terinstall:
    pip install -r requirements.txt
