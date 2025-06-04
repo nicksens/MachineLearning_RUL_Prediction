@@ -1,4 +1,4 @@
-# 🔋 MachineLearning_RUL_Prediction
+# 🔋 MachineLearning: RUL Prediction using Random Forest
 
 Aplikasi ini memprediksi Remaining Useful Life (RUL) atau sisa umur pakai baterai berdasarkan fitur-fitur utama hasil pengukuran siklus baterai. Model ini dibangun menggunakan Random Forest Regressor dan telah dilatih pada dataset Battery_RUL.csv.
 
@@ -46,6 +46,9 @@ Pengguna diminta memasukkan tiga fitur utama baterai:
 - `rul_model_pipeline.joblib` : Model pipeline hasil training.
 - `Battery_RUL.csv` : Dataset yang digunakan untuk training.
 - `requirements.txt` : Daftar dependensi Python.
+
+## Link Demo
+https://kelompok5rulpred.streamlit.app/
 
 ---
 
