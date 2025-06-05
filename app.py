@@ -5,7 +5,7 @@ import plotly.graph_objects as go # Import Plotly
 import numpy as np # For generating sample data for the graph
 
 # Load model that has been trained
-model_pipeline = joblib.load("rul_model_pipeline.joblib")
+model_pipeline = joblib.load("rul_model_pipeline_tuned.joblib")
 
 # Page config
 st.set_page_config(page_title="Battery RUL Predictor", layout="centered", initial_sidebar_state="auto")
