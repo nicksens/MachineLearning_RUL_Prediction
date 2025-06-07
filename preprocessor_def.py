@@ -1,3 +1,5 @@
+# preprocessor_def.py
+
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, PowerTransformer
 
@@ -9,5 +11,5 @@ preprocessor = ColumnTransformer(
         ('std_scaler', StandardScaler(), std_scale_features),
         ('power_transform', PowerTransformer(method='yeo-johnson'), power_transform_features)
     ],
-    remainder='passthrough' 
+    remainder='passthrough'
 )
