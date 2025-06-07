@@ -1,5 +1,9 @@
-streamlit==1.35.0
-pandas==2.1.4
-scikit-learn==1.3.2
-plotly==5.22.0
-numpy==1.26.4
+numpy
+pandas 
+matplotlib
+seaborn
+scikit-learn
+joblib
+streamlit
+ipykernel
+plotly
