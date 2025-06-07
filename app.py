@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import plotly.graph_objects as go # Import Plotly
-import numpy as np # For generating sample data for the graph
+import plotly.graph_objects as go
+import numpy as np
 
+from preprocessor_def import preprocessor
 # Load model that has been trained
 model_pipeline = joblib.load("rul_model_pipeline_tuned.joblib")
 
