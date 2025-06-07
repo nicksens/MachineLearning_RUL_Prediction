@@ -4,7 +4,7 @@ import joblib
 import plotly.graph_objects as go
 import numpy as np
 
-model_pipeline = joblib.load("rul_model_pipeline.joblib")
+model_pipeline = joblib.load("rul_model_pipeline_tuned.joblib")
 
 # Page config
 st.set_page_config(page_title="Battery RUL Predictor", layout="centered", initial_sidebar_state="auto")
